@@ -7,14 +7,13 @@ if [ ! -f ${FILE} ]; then
    touch ${FILE}
 fi
 
-IFS=$'\n'
-for line in `cat ${FILE}`
-do
-#echo ">>" $line
-if [ "$line" = "$PWD" ]; then
-    exit 0
-fi
-done
+#IFS=$'\n'
+#for line in `cat ${FILE}`
+#do
+#if [ "$line" = "$PWD" ]; then
+#    exit 0
+#fi
+#done
 
 
 echo $PWD ">>" ${FILE}
