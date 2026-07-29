@@ -1,9 +1,10 @@
 
 
 SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
-alias whs='${SCRIPT_DIR}/wdc_history_save.sh'
-alias whp='${SCRIPT_DIR}/wdc_history_print.sh'
-alias whd='${SCRIPT_DIR}/wdc_history_delete.sh'
-alias whc='source ${SCRIPT_DIR}/wdc_history_change.sh'
-alias whcl='source ${SCRIPT_DIR}/wdc_history_change_last_session.sh'
+alias ss='${SCRIPT_DIR}/wdc_history_save.sh'
+alias sp='${SCRIPT_DIR}/wdc_history_print.sh'
+alias sd='${SCRIPT_DIR}/wdc_history_delete.sh'
+alias sc='source ${SCRIPT_DIR}/wdc_history_change.sh'
+alias scl='source ${SCRIPT_DIR}/wdc_history_change_last_session.sh'
+alias sq='cat ${SCRIPT_DIR}/wdc_history_help'
 
