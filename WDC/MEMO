@@ -10,10 +10,10 @@ WDC  -Working Drectory Chnage control
 
 # usege
 
-> hp      history list print
-> hs      current directory save history
-> hc [N]  current directory change by history number
-> hcl     current directory change by last history
-> hd      history list delete
+> whp      history list print
+> whs      current directory save history
+> whc [N]  current directory change by history number
+> whcl     current directory change by last history
+> whd      history list delete
 
 
