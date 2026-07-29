@@ -1,0 +1,24 @@
+# nvm
+#export NVM_DIR="$HOME/.nvm"
+#[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+
+#echo $PS1
+PS1='\033[01;35m\W/\033[00m\n\$ '
+
+
+
+# fnm
+# https://qiita.com/taqumo/items/b25d486e6ead9f38a13d
+FNM_PATH="/c/Users/devg1/.local/share/fnm"
+if [ -d "$FNM_PATH" ]; then
+  export PATH="$FNM_PATH:$PATH"
+  eval "$(fnm env --shell bash)"
+fi
+
+cd ~/dev
+
+alias gt='~/dev/_bstools/gtest.sh'
+
+source ~/dev/_bstools/WDC/wdc_alias
+
+

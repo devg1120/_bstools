@@ -1,0 +1,18 @@
+WDC  -Working Drectory Chnage control
+
+# install
+    ~/dev/_tools/WDC/
+
+# setup alias
+
+.bashrc
+    source ~/dev/_tools/WDC/wdc_alias
+
+# usege
+
+> hp      history list print
+> hs      current directory save history
+> hc [N]  current directory change
+> hd      history list delete
+
+
