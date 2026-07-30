@@ -1,0 +1,22 @@
+STK  -Working Drectory Stack Control
+
+# usege
+> push 
+> pop
+> jump [N}
+> stack
+> stack_edit
+> stack_reset
+> stack_help
+
+
+
+alias push='${SCRIPT_DIR}/stk_push.sh'
+alias pop='source ${SCRIPT_DIR}/stk_pop.sh'
+alias jump='source ${SCRIPT_DIR}/stk_jump.sh'
+alias stack_list='${SCRIPT_DIR}/stk_stack_print.sh'
+alias stack_edit='vim ${SCRIPT_DIR}/_stack'
+alias stack_reset='rm -f  > ${SCRIPT_DIR}/_stack'
+alias stack_help='cat ${SCRIPT_DIR}/stk_help'
+
+

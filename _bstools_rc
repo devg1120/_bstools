@@ -1,0 +1,15 @@
+
+
+BSTOOLS_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+
+alias gt='${BSTOOLS_DIR}/gtest.sh'
+
+alias bs='\
+cat ${BSTOOLS_DIR}/WDC/help;\
+cat ${BSTOOLS_DIR}/STK/help;\
+'
+
+source ${BSTOOLS_DIR}/WDC/wdc_alias
+source ${BSTOOLS_DIR}/STK/stk_alias
+
+

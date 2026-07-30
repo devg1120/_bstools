@@ -1,0 +1,16 @@
+------------------------------------------------
+WDC  -Session Drectory Control (SDCC)
+
+# usege
+> ss      current directory session save 
+> sp      session list print
+> sl [N}  session entry copy last
+> se      session list edit
+> sd [N]  session list delete
+> sr      session list reset
+
+> sc [N]  session change by entry number
+> scl     session change by last entry 
+
+> sq       help
+
