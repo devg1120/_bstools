@@ -1,0 +1,19 @@
+
+
+FIND_SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+
+
+alias ff='bash ${FIND_SCRIPT_DIR}/find_file.sh'
+alias fd='bash ${FIND_SCRIPT_DIR}/find_dir.sh'
+alias fpush='bash ${FIND_SCRIPT_DIR}/stk_push.sh'
+alias fpop='bash ${FIND_SCRIPT_DIR}/stk_pop.sh'
+alias fp='bash ${FIND_SCRIPT_DIR}/stk_stack_print.sh'
+alias fprint='bash ${FIND_SCRIPT_DIR}/stk_stack_print.sh'
+alias fe='vim ${FIND_SCRIPT_DIR}/_stack'
+alias fedit='vim ${FIND_SCRIPT_DIR}/_stack'
+alias fr='rm -f  > ${FIND_SCRIPT_DIR}/_stack'
+alias freset='rm -f  > ${FIND_SCRIPT_DIR}/_stack'
+alias fq='cat ${FIND_SCRIPT_DIR}/help'
+alias fhelp='cat ${FIND_SCRIPT_DIR}/help'
+
+

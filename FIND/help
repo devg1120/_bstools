@@ -1,0 +1,13 @@
+-----------------------------------------------
+FIND  -FIND Control
+
+# usege
+>  ff  [N]/PATH  pattern
+>  fd  [N]/PATH  pattern
+>  fpush
+>  fpop
+>  fp  / dprint
+>  fe  / dedit
+>  fr  / dreset
+>  fq  / dhelp
+

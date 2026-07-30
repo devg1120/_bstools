@@ -1,0 +1,37 @@
+STK  -Working Drectory Stack Control
+
+# usege
+> push 
+> pop
+> jump [N}
+> stack
+> stack_edit
+> stack_reset
+> stack_help
+
+
+
+alias push='${SCRIPT_DIR}/stk_push.sh'
+alias pop='source ${SCRIPT_DIR}/stk_pop.sh'
+alias jump='source ${SCRIPT_DIR}/stk_jump.sh'
+alias stack_list='${SCRIPT_DIR}/stk_stack_print.sh'
+alias stack_edit='vim ${SCRIPT_DIR}/_stack'
+alias stack_reset='rm -f  > ${SCRIPT_DIR}/_stack'
+alias stack_help='cat ${SCRIPT_DIR}/stk_help'
+
+
+
+
+DIFF_SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+
+
+alias df='bash ${DIFF_SCRIPT_DIR}/diff.sh'
+alias dpush='bash ${DIFF_SCRIPT_DIR}/stk_push.sh'
+#alias dpop='source ${DIFF_SCRIPT_DIR}/stk_pop.sh'
+alias dpop='bash ${DIFF_SCRIPT_DIR}/stk_pop.sh'
+alias dp='bash ${DIFF_SCRIPT_DIR}/stk_stack_print.sh'
+alias de='vim ${DIFF_SCRIPT_DIR}/_stack'
+alias dr='rm -f  > ${DIFF_SCRIPT_DIR}/_stack'
+alias dq='cat ${DIFF_SCRIPT_DIR}/diff_help'
+
+
