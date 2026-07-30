@@ -2,13 +2,11 @@
 DIFF  -Working Drectory Stack Control
 
 # usege
->  dif    s / sa / c / u
+>  df    s / sa / c / u
 >  dpush
 >  dpop
->  dprint
->  de
->  dr
->  dq
-
-
+>  dp  / dprint
+>  de  / dedit
+>  dr  / dreset
+>  dq  / dhelp
 

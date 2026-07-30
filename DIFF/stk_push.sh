@@ -16,8 +16,16 @@ fi
 #done
 
 
-echo $PWD ">>" ${FILE}
-echo $PWD >> ${FILE}
+#echo $PWD ">>" ${FILE}
+#echo $PWD >> ${FILE}
+
+if [ -n "$1" ]; then
+   echo $PWD/$1 ">>" ${FILE}
+   echo $PWD/$1 >> ${FILE}
+else
+   echo $PWD ">>" ${FILE}
+   echo $PWD >> ${FILE}
+fi
 
 tail -n 2 ${FILE}  > ${FILE}.tmp && mv ${FILE}.tmp ${FILE}
 

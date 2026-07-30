@@ -18,8 +18,8 @@ if [ "$#" -eq 1 ]; then
   MODE=$1
 else
   #echo "引数の数は 1 以外の $# です"
-  echo " arg err: hc [N]   N:history number"
-  return
+  echo " arg err: $1 s sa c u"
+  exit
 fi
 
 if [ ! -f ${FILE} ]; then
@@ -52,16 +52,45 @@ if [ "$DIR2" == "" ]; then
   exit
 fi
 
+#case ${MODE} in
+#  "s")
+#     bash ${DIFF_SCRIPT_DIR}/diff_side_by_side.sh   $DIR1 $DIR2;;
+#  "sa")
+#     bash ${DIFF_SCRIPT_DIR}/diff_side_by_side_all.sh  $DIR1 $DIR2;;
+#  "c")
+#     bash ${DIFF_SCRIPT_DIR}/diff_context.sh  $DIR1 $DIR2;;
+#  "u")
+#     bash ${DIFF_SCRIPT_DIR}/diff_unified.sh  $DIR1 $DIR2;;
+#  *)
+#    echo "MODE err"
+#esac
+
+if [ -f "$DIR1" ]; then
 case ${MODE} in
   "s")
-     bash ${DIFF_SCRIPT_DIR}/diff_side_by_side.sh   $DIR1 $DIR2;;
+     bash ${DIFF_SCRIPT_DIR}/_FDIFF.sh  1 $DIR1 $DIR2;;
   "sa")
-     bash ${DIFF_SCRIPT_DIR}/diff_side_by_side_all.sh  $DIR1 $DIR2;;
+     bash ${DIFF_SCRIPT_DIR}/_FDIFF.sh  2 $DIR1 $DIR2;;
   "c")
-     bash ${DIFF_SCRIPT_DIR}/diff_context.sh  $DIR1 $DIR2;;
+     bash ${DIFF_SCRIPT_DIR}/_FDIFF.sh  3 $DIR1 $DIR2;;
   "u")
-     bash ${DIFF_SCRIPT_DIR}/diff_unified.sh  $DIR1 $DIR2;;
+     bash ${DIFF_SCRIPT_DIR}/_FDIFF.sh  4 $DIR1 $DIR2;;
   *)
     echo "MODE err"
 esac
+fi
 
+if [ -d "$DIR1" ]; then
+case ${MODE} in
+  "s")
+     bash ${DIFF_SCRIPT_DIR}/_DIFF.sh  1 $DIR1 $DIR2;;
+  "sa")
+     bash ${DIFF_SCRIPT_DIR}/_DIFF.sh  2 $DIR1 $DIR2;;
+  "c")
+     bash ${DIFF_SCRIPT_DIR}/_DIFF.sh  3 $DIR1 $DIR2;;
+  "u")
+     bash ${DIFF_SCRIPT_DIR}/_DIFF.sh  4 $DIR1 $DIR2;;
+  *)
+    echo "MODE err"
+esac
+fi
