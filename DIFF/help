@@ -1,0 +1,14 @@
+-----------------------------------------------
+DIFF  -Working Drectory Stack Control
+
+# usege
+>  dif    s / sa / c / u
+>  dpush
+>  dpop
+>  dprint
+>  de
+>  dr
+>  dq
+
+
+
