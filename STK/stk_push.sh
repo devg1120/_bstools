@@ -1,7 +1,7 @@
 
 
-SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
-FILE=$SCRIPT_DIR/_stack
+STK_SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+FILE=$STK_SCRIPT_DIR/_stack
 
 if [ ! -f ${FILE} ]; then
    touch ${FILE}

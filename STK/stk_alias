@@ -1,31 +1,14 @@
 
 
-SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+STK_SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 
 
-alias push='${SCRIPT_DIR}/stk_push.sh'
-alias pop='source ${SCRIPT_DIR}/stk_pop.sh'
-alias jump='source ${SCRIPT_DIR}/stk_jump.sh'
-alias stack='${SCRIPT_DIR}/stk_stack_print.sh'
-alias stack_edit='vim ${SCRIPT_DIR}/_stack'
-alias stack_reset='rm -f  > ${SCRIPT_DIR}/_stack'
-alias stack_help='cat ${SCRIPT_DIR}/stk_help'
+alias tpush='bash ${STK_SCRIPT_DIR}/stk_push.sh'
+alias tpop='source ${STK_SCRIPT_DIR}/stk_pop.sh'
+alias tjump='source ${STK_SCRIPT_DIR}/stk_jump.sh'
+alias tp='bash ${STK_SCRIPT_DIR}/stk_stack_print.sh'
+alias tedit='vim ${STK_SCRIPT_DIR}/_stack'
+alias treset='rm -f  > ${STK_SCRIPT_DIR}/_stack'
+alias tq='cat ${STK_SCRIPT_DIR}/stk_help'
 
-#alias push='${SCRIPT_DIR}/wdc_history_save.sh'
-#alias pop='source ${SCRIPT_DIR}/wdc_history_change_last_session.sh'
-#alias sc='source ${SCRIPT_DIR}/wdc_history_change.sh'
-#alias stack='${SCRIPT_DIR}/wdc_history_print.sh'
-
-#alias sc='source ${SCRIPT_DIR}/wdc_history_change.sh'
-#alias ss='${SCRIPT_DIR}/wdc_history_save.sh'
-#alias sp='${SCRIPT_DIR}/wdc_history_print.sh'
-#alias sl='${SCRIPT_DIR}/wdc_history_movelast.sh'
-#alias se='vim ${SCRIPT_DIR}/_wdc.history'
-#alias sd='${SCRIPT_DIR}/wdc_history_delete.sh'
-#alias sr='${SCRIPT_DIR}/wdc_history_reset.sh'
-
-#alias sc='source ${SCRIPT_DIR}/wdc_history_change.sh'
-#alias scl='source ${SCRIPT_DIR}/wdc_history_change_last_session.sh'
-
-#alias sq='cat ${SCRIPT_DIR}/wdc_history_help'
 
