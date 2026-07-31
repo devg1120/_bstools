@@ -1,0 +1,18 @@
+-----------------------------------------------
+GREP  GREP Control
+
+# usege
+>  gr   unit     -E
+>  gro  or       -e
+>  gra  and
+
+>  gpush
+>  gpop
+>  gp  / dprint
+>  ge  / dedit
+>  greset  / dreset
+>  gq  / dhelp
+
+gr    1 func               
+gro   1 else func               
+gra   1 else func

@@ -1,0 +1,15 @@
+
+bash ./grep_dir.sh 1 unit "else|func"   
+bash ./grep_dir.sh 1 or "else|func"   
+bash ./grep_dir.sh 1 and "else|func"
+
+###########################################
+bash ./_grep_unit.sh 1 func
+bash ./_grep_or.sh   1 else func
+bash ./_grep_and.sh  1 else func
+
+###########################################
+gr    1 func
+gro   1 else func
+gra   1 else func
+

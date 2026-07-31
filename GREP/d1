@@ -1,0 +1,176 @@
+/home/devg1120/solidjs-dnd-resize/resize-test4/src_4/resize/index.tsx.org:601:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test4/src_4/resize/index.tsx.org:603:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test4/src_4/resize/index.tsx:604:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test4/src_4/resize/index.tsx:606:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test4/src_1/demo.tsx:605:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test4/src_1/demo.tsx:607:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test4/src_1/src/index.tsx.org:601:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test4/src_1/src/index.tsx.org:603:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test4/src_1/src/index.tsx:605:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test4/src_1/src/index.tsx:607:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test4/src_2/resize/index.tsx.org:601:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test4/src_2/resize/index.tsx.org:603:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test4/src_2/resize/index.tsx:605:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test4/src_2/resize/index.tsx:607:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test4/src_5/resize/index.tsx.org:601:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test4/src_5/resize/index.tsx.org:603:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test4/src_5/resize/index.tsx:604:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test4/src_5/resize/index.tsx:606:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test4/src_3/resize/index.tsx.org:601:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test4/src_3/resize/index.tsx.org:603:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test4/src_3/resize/index.tsx:604:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test4/src_3/resize/index.tsx:606:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test4/src/resize/index.tsx.old:613:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test4/src/resize/index.tsx.old:615:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test4/src/resize/index.tsx.org:601:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test4/src/resize/index.tsx.org:603:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test4/src/resize/index.tsx:635:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test4/src/resize/index.tsx:637:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test4/src/resize2/index.tsx.old:613:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test4/src/resize2/index.tsx.old:615:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test4/src/resize2/index.tsx.org:601:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test4/src/resize2/index.tsx.org:603:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test4/src/resize2/index.tsx:613:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test4/src/resize2/index.tsx:615:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test4/src__/resize/index.tsx.org:601:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test4/src__/resize/index.tsx.org:603:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test4/src__/resize/index.tsx:604:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test4/src__/resize/index.tsx:606:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test2/src_4/resize/index.tsx.org:601:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test2/src_4/resize/index.tsx.org:603:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test2/src_4/resize/index.tsx:604:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test2/src_4/resize/index.tsx:606:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test2/src_1/demo.tsx:605:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test2/src_1/demo.tsx:607:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test2/src_1/src/index.tsx.org:601:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test2/src_1/src/index.tsx.org:603:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test2/src_1/src/index.tsx:605:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test2/src_1/src/index.tsx:607:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test2/src_2/resize/index.tsx.org:601:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test2/src_2/resize/index.tsx.org:603:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test2/src_2/resize/index.tsx:605:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test2/src_2/resize/index.tsx:607:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test2/src_5/resize/index.tsx.org:601:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test2/src_5/resize/index.tsx.org:603:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test2/src_5/resize/index.tsx:604:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test2/src_5/resize/index.tsx:606:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test2/src_3/resize/index.tsx.org:601:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test2/src_3/resize/index.tsx.org:603:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test2/src_3/resize/index.tsx:604:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test2/src_3/resize/index.tsx:606:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test2/src/resize/index.tsx.org:601:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test2/src/resize/index.tsx.org:603:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test2/src/resize/index.tsx:604:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test2/src/resize/index.tsx:606:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test2/src__/resize/index.tsx.org:601:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test2/src__/resize/index.tsx.org:603:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test2/src__/resize/index.tsx:604:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test2/src__/resize/index.tsx:606:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test1/src_4/resize/index.tsx.org:601:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test1/src_4/resize/index.tsx.org:603:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test1/src_4/resize/index.tsx:604:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test1/src_4/resize/index.tsx:606:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test1/src_1/demo.tsx:605:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test1/src_1/demo.tsx:607:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test1/src_1/src/index.tsx.org:601:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test1/src_1/src/index.tsx.org:603:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test1/src_1/src/index.tsx:605:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test1/src_1/src/index.tsx:607:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test1/src_2/resize/index.tsx.org:601:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test1/src_2/resize/index.tsx.org:603:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test1/src_2/resize/index.tsx:605:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test1/src_2/resize/index.tsx:607:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test1/src_5/resize/index.tsx.org:601:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test1/src_5/resize/index.tsx.org:603:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test1/src_5/resize/index.tsx:604:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test1/src_5/resize/index.tsx:606:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test1/src_3/resize/index.tsx.org:601:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test1/src_3/resize/index.tsx.org:603:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test1/src_3/resize/index.tsx:604:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test1/src_3/resize/index.tsx:606:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test1/src/resize/index.tsx.org:601:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test1/src/resize/index.tsx.org:603:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test1/src/resize/index.tsx:604:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test1/src/resize/index.tsx:606:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test1/src__/resize/index.tsx.org:601:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test1/src__/resize/index.tsx.org:603:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test1/src__/resize/index.tsx:604:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test1/src__/resize/index.tsx:606:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test3/src_4/resize/index.tsx.org:601:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test3/src_4/resize/index.tsx.org:603:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test3/src_4/resize/index.tsx:604:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test3/src_4/resize/index.tsx:606:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test3/src_1/demo.tsx:605:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test3/src_1/demo.tsx:607:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test3/src_1/src/index.tsx.org:601:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test3/src_1/src/index.tsx.org:603:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test3/src_1/src/index.tsx:605:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test3/src_1/src/index.tsx:607:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test3/src_2/resize/index.tsx.org:601:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test3/src_2/resize/index.tsx.org:603:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test3/src_2/resize/index.tsx:605:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test3/src_2/resize/index.tsx:607:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test3/src_5/resize/index.tsx.org:601:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test3/src_5/resize/index.tsx.org:603:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test3/src_5/resize/index.tsx:604:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test3/src_5/resize/index.tsx:606:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test3/src_3/resize/index.tsx.org:601:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test3/src_3/resize/index.tsx.org:603:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test3/src_3/resize/index.tsx:604:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test3/src_3/resize/index.tsx:606:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test3/src/resize/index.tsx.old:613:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test3/src/resize/index.tsx.old:615:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test3/src/resize/index.tsx.org:601:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test3/src/resize/index.tsx.org:603:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test3/src/resize/index.tsx:622:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test3/src/resize/index.tsx:624:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test3/src/resize/index.tsx.old2:622:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test3/src/resize/index.tsx.old2:624:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test3/src/resize2/index.tsx.old:613:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test3/src/resize2/index.tsx.old:615:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test3/src/resize2/index.tsx.org:601:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test3/src/resize2/index.tsx.org:603:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test3/src/resize2/index.tsx:613:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test3/src/resize2/index.tsx:615:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test3/src__/resize/index.tsx.org:601:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test3/src__/resize/index.tsx.org:603:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test3/src__/resize/index.tsx:604:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test3/src__/resize/index.tsx:606:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test5/src_4/resize/index.tsx.org:601:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test5/src_4/resize/index.tsx.org:603:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test5/src_4/resize/index.tsx:604:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test5/src_4/resize/index.tsx:606:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test5/src_1/demo.tsx:605:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test5/src_1/demo.tsx:607:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test5/src_1/src/index.tsx.org:601:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test5/src_1/src/index.tsx.org:603:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test5/src_1/src/index.tsx:605:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test5/src_1/src/index.tsx:607:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test5/src_2/resize/index.tsx.org:601:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test5/src_2/resize/index.tsx.org:603:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test5/src_2/resize/index.tsx:605:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test5/src_2/resize/index.tsx:607:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test5/src_5/resize/index.tsx.org:601:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test5/src_5/resize/index.tsx.org:603:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test5/src_5/resize/index.tsx:604:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test5/src_5/resize/index.tsx:606:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test5/src_3/resize/index.tsx.org:601:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test5/src_3/resize/index.tsx.org:603:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test5/src_3/resize/index.tsx:604:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test5/src_3/resize/index.tsx:606:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test5/src/resize/index.tsx.old:613:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test5/src/resize/index.tsx.old:615:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test5/src/resize/index.tsx.org:601:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test5/src/resize/index.tsx.org:603:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test5/src/resize/index.tsx:635:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test5/src/resize/index.tsx:637:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test5/src/resize2/index.tsx.old:613:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test5/src/resize2/index.tsx.old:615:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test5/src/resize2/index.tsx.org:601:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test5/src/resize2/index.tsx.org:603:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test5/src/resize2/index.tsx:613:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test5/src/resize2/index.tsx:615:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test5/src__/resize/index.tsx.org:601:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test5/src__/resize/index.tsx.org:603:        } else if (typeof props.dragHandle === "string") {
+/home/devg1120/solidjs-dnd-resize/resize-test5/src__/resize/index.tsx:604:        } else if (props.dragHandle instanceof HTMLElement) {
+/home/devg1120/solidjs-dnd-resize/resize-test5/src__/resize/index.tsx:606:        } else if (typeof props.dragHandle === "string") {

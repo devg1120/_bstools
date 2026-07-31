@@ -1,0 +1,21 @@
+
+
+GREP_SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+
+
+alias gr='bash ${GREP_SCRIPT_DIR}/_grep_unit.sh'
+alias gro='bash ${GREP_SCRIPT_DIR}/_grep_or.sh'
+alias gra='bash ${GREP_SCRIPT_DIR}/_grep_and.sh'
+
+alias gpush='bash ${GREP_SCRIPT_DIR}/stk_push.sh'
+alias gpop='bash ${GREP_SCRIPT_DIR}/stk_pop.sh'
+alias gp='bash ${GREP_SCRIPT_DIR}/stk_stack_print.sh'
+alias gprint='bash ${GREP_SCRIPT_DIR}/stk_stack_print.sh'
+alias ge='vim ${GREP_SCRIPT_DIR}/_stack'
+alias fedit='vim ${GREP_SCRIPT_DIR}/_stack'
+#alias gr='rm -f  > ${GREP_SCRIPT_DIR}/_stack'
+alias greset='rm -f  > ${GREP_SCRIPT_DIR}/_stack'
+alias gq='cat ${GREP_SCRIPT_DIR}/help'
+alias ghelp='cat ${GREP_SCRIPT_DIR}/help'
+
+
