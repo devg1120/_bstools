@@ -10,6 +10,7 @@ cat ${BSTOOLS_DIR}/STK/help;\
 cat ${BSTOOLS_DIR}/DIFF/help;\
 cat ${BSTOOLS_DIR}/FIND/help;\
 cat ${BSTOOLS_DIR}/GREP/help;\
+cat ${BSTOOLS_DIR}/TREE/help;\
 '
 
 source ${BSTOOLS_DIR}/WDC/wdc_alias
@@ -17,5 +18,6 @@ source ${BSTOOLS_DIR}/STK/stk_alias
 source ${BSTOOLS_DIR}/DIFF/diff_alias
 source ${BSTOOLS_DIR}/FIND/find_alias
 source ${BSTOOLS_DIR}/GREP/grep_alias
+source ${BSTOOLS_DIR}/TREE/index_alias
 
 

@@ -1,0 +1,19 @@
+
+
+TREE_SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+
+
+alias tr='bash ${TREE_SCRIPT_DIR}/index.sh'
+
+alias tpush='bash ${TREE_SCRIPT_DIR}/stk_push.sh'
+alias tpop='bash ${TREE_SCRIPT_DIR}/stk_pop.sh'
+alias tp='bash ${TREE_SCRIPT_DIR}/stk_stack_print.sh'
+alias tprint='bash ${TREE_SCRIPT_DIR}/stk_stack_print.sh'
+alias ge='vim ${TREE_SCRIPT_DIR}/_stack'
+alias fedit='vim ${TREE_SCRIPT_DIR}/_stack'
+#alias gr='rm -f  > ${TREE_SCRIPT_DIR}/_stack'
+alias greset='rm -f  > ${TREE_SCRIPT_DIR}/_stack'
+alias gq='cat ${TREE_SCRIPT_DIR}/help'
+alias ghelp='cat ${TREE_SCRIPT_DIR}/help'
+
+
