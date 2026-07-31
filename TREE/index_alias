@@ -3,7 +3,8 @@
 TREE_SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 
 
-alias tr='bash ${TREE_SCRIPT_DIR}/index.sh'
+alias tr1='bash ${TREE_SCRIPT_DIR}/index.sh'
+alias tr2='bash ${TREE_SCRIPT_DIR}/index2.sh'
 
 alias tpush='bash ${TREE_SCRIPT_DIR}/stk_push.sh'
 alias tpop='bash ${TREE_SCRIPT_DIR}/stk_pop.sh'
