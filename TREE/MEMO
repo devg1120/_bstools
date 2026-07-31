@@ -1,0 +1,4 @@
+ 2042  bash ./tree1.sh ..
+ 2043  bash ./tree2.sh ..
+ 2044  bash ./tree2.sh .. | wc -l
+ 2045  bash ./tree1.sh .. | wc -l
