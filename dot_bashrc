@@ -19,5 +19,5 @@ PS1='\033[01;35m\W/\033[00m\n\$ '
 
 source ~/dev/_bstools/_bstools_rc
 
-scl
+_scl
 

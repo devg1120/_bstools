@@ -1,11 +1,19 @@
+#!/usr/bin/env bash
+
+
 BSTOOLS_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 
+source $BSTOOLS_DIR/_bstools_rc
+
 usage() {
-         echo "SESSION   bs s"
-         echo "DIR       bs w"
-         echo "TREE      bs t"
-         echo "DIFF      bs d"
-         echo "FIND      bs f"
+         echo "SESSION     bs s"
+         echo "WORK DIR    bs w"
+         echo "TREE        bs t"
+         echo "DIFF        bs d"
+         echo "FIND        bs f"
+         echo "GREP        bs g"
+         echo "all         bs -"
+         echo "alias       bs a"
 }
 
 if [ "$#" -eq 0 ]; then
@@ -13,53 +21,71 @@ if [ "$#" -eq 0 ]; then
    exit
 fi
 
-session() {
+session_() {
           cat ${BSTOOLS_DIR}/SESSION/wdc_help;\
           cat ${BSTOOLS_DIR}/SESSION/wdc_alias | grep  --color=never alias;\
 }
 
-dir() {
+dir_() {
           cat ${BSTOOLS_DIR}/DIR/stk_help;\
           cat ${BSTOOLS_DIR}/DIR/stk_alias | grep  --color=never alias;\
 }
 
-tree() {
+tree_() {
           cat ${BSTOOLS_DIR}/TREE/tree_help;\
           cat ${BSTOOLS_DIR}/TREE/tree_alias | grep  --color=never alias;\
 }
 
-diff() {
+diff_() {
           cat ${BSTOOLS_DIR}/DIFF/diff_help;\
           cat ${BSTOOLS_DIR}/DIFF/diff_alias | grep  --color=never alias;\
 }
 
-find() {
+find_() {
           cat ${BSTOOLS_DIR}/FIND/find_help;\
           cat ${BSTOOLS_DIR}/FIND/find_alias | grep  --color=never alias;\
 }
 
+grep_() {
+          cat ${BSTOOLS_DIR}/GREP/grep_help;\
+          cat ${BSTOOLS_DIR}/GREP/grep_alias | grep  --color=never alias;\
+}
+
+alias_() {
+         alias |grep  "^alias _"
+}
+
 case ${1} in
   "s" )
-	  session
+	  session_
      ;;
   "w" )
-	  dir
+	  dir_
      ;;
   "t" )
-	  tree
+	  tree_
      ;;
   "d")
-	  diff
+	  diff_
      ;;
   "f" )
-	  find
+	  find_
+     ;;
+  "g" )
+	  grep_
      ;;
   "-")
-	  session
-	  dir
-	  tree
-	  diff
-	  find
+	  (
+	  session_
+	  dir_
+	  tree_
+	  diff_
+	  find_
+	  grep_
+  ) | less
+     ;;
+  "a" )
+	 alias_
      ;;
   *)
 	  usage

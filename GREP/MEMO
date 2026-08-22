@@ -10,6 +10,6 @@ bash ./_grep_and.sh  1 else func
 
 ###########################################
 gr    1 func
-gro   1 else func
-gra   1 else func
+go   1 else func
+ga   1 else func
 

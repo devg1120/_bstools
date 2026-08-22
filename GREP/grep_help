@@ -1,0 +1,19 @@
+-------------------------------------------------
+GREP
+
+OR pattern
+
+> _ggo  [N] pattern  pattern ..
+> _ggo  dir pattern  pattern ..
+
+AND pattern
+> _gga  [N] pattern  pattern ..
+> _gga  dir pattern  pattern ..
+
+_ggo   1 func
+_ggo   1 else func 
+_ggo   /home/devg1120/solidjs-dnd-resize  else func
+
+_gga   1 else func 
+_gga   /home/devg1120/solidjs-dnd-resize  else func
+
