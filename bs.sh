@@ -12,6 +12,7 @@ usage() {
          echo "DIFF        bs d"
          echo "FIND        bs f"
          echo "GREP        bs g"
+         echo "REPLACE     bs r"
          echo "all         bs -"
          echo "alias       bs a"
 }
@@ -51,6 +52,11 @@ grep_() {
           cat ${BSTOOLS_DIR}/GREP/grep_alias | grep  --color=never alias;\
 }
 
+replace_() {
+          cat ${BSTOOLS_DIR}/REPLACE/replace_help;\
+          cat ${BSTOOLS_DIR}/REPLACE/replace_alias | grep  --color=never alias;\
+}
+
 alias_() {
          alias |grep  "^alias _"
 }
@@ -74,6 +80,9 @@ case ${1} in
   "g" )
 	  grep_
      ;;
+  "r" )
+	  replace_
+     ;;
   "-")
 	  (
 	  session_
@@ -82,6 +91,7 @@ case ${1} in
 	  diff_
 	  find_
 	  grep_
+	  replace_
   ) | less
      ;;
   "a" )

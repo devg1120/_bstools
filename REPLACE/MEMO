@@ -1,0 +1,7 @@
+
+bash replace_dir.sh  ./test_dir/test2   AAAA aaaa
+
+_rd  ./test_dir/test2   AAAA aaaa
+
+_rf  ./test_dir/test2_/file2.txt   BBBB bbbb
+

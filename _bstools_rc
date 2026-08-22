@@ -13,6 +13,7 @@ source ${BSTOOLS_DIR}/TREE/tree_alias
 source ${BSTOOLS_DIR}/DIFF/diff_alias
 source ${BSTOOLS_DIR}/FIND/find_alias
 source ${BSTOOLS_DIR}/GREP/grep_alias
+source ${BSTOOLS_DIR}/REPLACE/replace_alias
 
 
 
