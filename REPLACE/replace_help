@@ -1,20 +1,22 @@
 -----------------------------------------------
 REPLACE  -REPLACR Control
->  _rf  find file
+> replace file
    _rf  FILEPATH  pattern
      rf ~/solidjs-dnd-resize/file AAAA BBBB  
+        => ~/solidjs-dnd-resize/file_
 
->  _rd  find directory
+> replace directory
    _rd  [N]  pattern
      rd 1   AAAA BBBB
    _rd  DIRPATH  pattern
      rd ~/solidjs-dnd-resize  AAAA BBBB
+        => ~/solidjs-dnd-resize_
 
->  fs
->  fd
->  fp  
->  fe  
->  fr  
->  fq  
->  fh  
+>  rs
+>  rd
+>  rp  
+>  re  
+>  rr  
+>  rh  
+>  ra  
 
