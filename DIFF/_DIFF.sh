@@ -1,7 +1,6 @@
 # ref
 # https://www.tohoho-web.com/linux/cmd/diff.html
 #
-
 D1=case08/gridsheet/src
 D2=case09/gridsheet/src
 F=""

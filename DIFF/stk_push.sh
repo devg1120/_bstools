@@ -19,15 +19,21 @@ fi
 #echo $PWD ">>" ${FILE}
 #echo $PWD >> ${FILE}
 
-if [ -n "$1" ]; then
-   echo $PWD/$1 ">>" ${FILE}
-   echo $PWD/$1 >> ${FILE}
-else
-   echo $PWD ">>" ${FILE}
-   echo $PWD >> ${FILE}
+if [ "$#" -ne 2 ]; then
+   echo error
+   exit
 fi
 
-tail -n 2 ${FILE}  > ${FILE}.tmp && mv ${FILE}.tmp ${FILE}
+#dir1="$(cd -- "$(dirname -- "$1")" && pwd)" || exit $?
+#path1="${dirname%/}/$(basename -- "$1")"
+#dir2="$(cd -- "$(dirname -- "$2")" && pwd)" || exit $?
+#path2="${dirname%/}/$(basename -- "$2")"
+
+path1=$(cd -- $1 && pwd)
+path2=$(cd -- $2 && pwd)
+
+echo "$path1  $path2" >> ${FILE}
+
 
 
 

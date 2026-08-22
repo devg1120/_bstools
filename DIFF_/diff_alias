@@ -1,0 +1,15 @@
+
+
+DIFF_SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+
+
+alias _ff='bash ${DIFF_SCRIPT_DIR}/diff.sh'
+alias _fs='bash ${DIFF_SCRIPT_DIR}/stk_push.sh'
+alias _fd='bash ${DIFF_SCRIPT_DIR}/stk_delete.sh'
+alias _fp='bash ${DIFF_SCRIPT_DIR}/stk_stack_print.sh'
+alias _fe='vim ${DIFF_SCRIPT_DIR}/_stack'
+#alias _fr='rm -f  > ${DIFF_SCRIPT_DIR}/_stack'
+alias _fh='cat ${DIFF_SCRIPT_DIR}/diff_help'
+alias _fa='cat ${DIFF_SCRIPT_DIR}/diff_alias'
+
+

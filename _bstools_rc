@@ -3,18 +3,18 @@
 BSTOOLS_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 
 alias gt='${BSTOOLS_DIR}/gtest.sh'
+alias bs='bash ${BSTOOLS_DIR}/bs.sh'
 
 source ${BSTOOLS_DIR}/SESSION/wdc_alias
 source ${BSTOOLS_DIR}/DIR/stk_alias
 source ${BSTOOLS_DIR}/TREE/tree_alias
 source ${BSTOOLS_DIR}/DIFF/diff_alias
-source ${BSTOOLS_DIR}/DIFF2/diff_alias
 source ${BSTOOLS_DIR}/FIND/find_alias
 source ${BSTOOLS_DIR}/GREP/grep_alias
 
 
 
-alias bs='\
+alias bs_help='\
 cat ${BSTOOLS_DIR}/SESSION/wdc_help;\
 cat ${BSTOOLS_DIR}/DIR/stk_help;\
 cat ${BSTOOLS_DIR}/TREE/tree_help;\
@@ -23,7 +23,7 @@ cat ${BSTOOLS_DIR}/FIND/find_help;\
 cat ${BSTOOLS_DIR}/GREP/grep_help;\
 '
 
-alias bs='\
+alias bs_help='\
 (\
 cat ${BSTOOLS_DIR}/SESSION/wdc_help;\
 cat ${BSTOOLS_DIR}/SESSION/wdc_alias | grep  --color=never alias;\
