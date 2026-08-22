@@ -3,16 +3,16 @@
 STK_SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 
 
-alias _ds='bash ${STK_SCRIPT_DIR}/stk_push.sh'
-#alias _dp='source ${STK_SCRIPT_DIR}/stk_pop.sh'
-alias _dd='source ${STK_SCRIPT_DIR}/stk_delete.sh'
-alias _dj='source ${STK_SCRIPT_DIR}/stk_jump.sh'
+alias _ws='bash ${STK_SCRIPT_DIR}/stk_push.sh'
+#alias _wp='source ${STK_SCRIPT_DIR}/stk_pop.sh'
+alias _wd='source ${STK_SCRIPT_DIR}/stk_delete.sh'
+alias _wj='source ${STK_SCRIPT_DIR}/stk_jump.sh'
 
-alias _dp='bash ${STK_SCRIPT_DIR}/stk_stack_print.sh'
-alias _de='vim ${STK_SCRIPT_DIR}/_stack'
+alias _wp='bash ${STK_SCRIPT_DIR}/stk_stack_print.sh'
+alias _we='vim ${STK_SCRIPT_DIR}/_stack'
 
 #alias _tr='rm -f  > ${STK_SCRIPT_DIR}/_stack'
-alias _dh='cat ${STK_SCRIPT_DIR}/stk_help'
-alias _da='cat ${STK_SCRIPT_DIR}/stk_alias | grep alias'
+alias _wh='cat ${STK_SCRIPT_DIR}/stk_help'
+alias _wa='cat ${STK_SCRIPT_DIR}/stk_alias | grep alias'
 
 

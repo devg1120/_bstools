@@ -2,9 +2,10 @@ BSTOOLS_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 
 usage() {
          echo "SESSION   bs s"
-         echo "DIR       bs d"
+         echo "DIR       bs w"
          echo "TREE      bs t"
-         echo "DIFF      bs f"
+         echo "DIFF      bs d"
+         echo "FIND      bs f"
 }
 
 if [ "$#" -eq 0 ]; then
@@ -32,25 +33,33 @@ diff() {
           cat ${BSTOOLS_DIR}/DIFF/diff_alias | grep  --color=never alias;\
 }
 
+find() {
+          cat ${BSTOOLS_DIR}/FIND/find_help;\
+          cat ${BSTOOLS_DIR}/FIND/find_alias | grep  --color=never alias;\
+}
 
 case ${1} in
   "s" )
 	  session
      ;;
-  "d" )
+  "w" )
 	  dir
-     ;;
-  "f")
-	  diff
      ;;
   "t" )
 	  tree
+     ;;
+  "d")
+	  diff
+     ;;
+  "f" )
+	  find
      ;;
   "-")
 	  session
 	  dir
 	  tree
 	  diff
+	  find
      ;;
   *)
 	  usage

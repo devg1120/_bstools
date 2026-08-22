@@ -2,20 +2,23 @@
 FIND  -FIND Control
 
 # usege
->  ff  find file
-   ff  [N]/PATH  pattern
+>  _ff  find file
+   _ff  [N]  pattern
      ff 1 *.ts
+   _ff  PATH  pattern
      ff ~/solidjs-dnd-resize  *.ts
 
->  fd  find directory
-   fd  [N]/PATH  pattern
+>  _fd  find directory
+   _fd  [N]  pattern
      fd 1 src
+   _fd  PATH  pattern
      fd ~/solidjs-dnd-resize  src
 
->  fpush
->  fpop
->  fp  / dprint
->  fe  / dedit
->  fr  / dreset
->  fq  / dhelp
+>  fs
+>  fd
+>  fp  
+>  fe  
+>  fr  
+>  fq  
+>  fh  
 

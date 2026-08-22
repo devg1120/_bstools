@@ -1,7 +1,0 @@
-
-FIND_SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
-DIR=$1
-EXT=$2
-#find . -type f -regextype egrep -not -regex  'node_modules' -name '*' -print
-find ${DIR} -type d -regextype egrep -not -regex  '.+node_modules.+' -name ${EXT} -print
-

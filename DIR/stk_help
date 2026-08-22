@@ -1,10 +1,10 @@
 -----------------------------------------------
-DIR  -Directory Stack Control (DIR)
-> _ds     current dir save
-> _dd [N] dir delete
-> _dj [N] dir jump
-> _dp     register print
-> _de     register edit
-> _dh     help
-> _da     alias
+WORKING DIR  -Directory Stack Control (DIR)
+> _ws     current dir save
+> _wd [N] dir delete
+> _wj [N] dir jump
+> _wp     register print
+> _we     register edit
+> _wh     help
+> _wa     alias
 
