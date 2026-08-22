@@ -13,14 +13,17 @@ DIFF_SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 FILE=$DIFF_SCRIPT_DIR/_stack
 
 MODE=1
-if [ "$#" -eq 1 ]; then
+HN=1p
+
+if [ "$#" -eq 2 ]; then
   #echo "引数の数は 1 です"
   MODE=$1
+  HN=$2"p"
+
 else
   #echo "引数の数は 1 以外の $# です"
-  #echo " arg err: $1 s sa c u"
-  #exit
-  MODE=s
+  echo " arg err: $1 s sa c u"
+  exit
 fi
 
 if [ ! -f ${FILE} ]; then
@@ -31,11 +34,19 @@ fi
 #cat -n ${FILE}
 
 #sed -n '2p' ${FILE}
-DIR1=`sed -n '1p' ${FILE}`
-DIR2=`sed -n '2p' ${FILE}`
+ENTRY=`sed -n $HN ${FILE}`
+echo $ENTRY
+if [  -z "$ENTRY" ]; then
+ echo number error
+fi
 
-echo $DIR1
-echo $DIR2
+DIR=(${ENTRY// / })
+
+echo ${DIR[0]}
+echo ${DIR[1]}
+DIR1=${DIR[0]}
+DIR2=${DIR[1]}
+
 
 #if [ -d "$DIR" ]; then
 #  cd $DIR
