@@ -1,0 +1,16 @@
+
+
+STK_SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+
+
+alias _ts='bash ${STK_SCRIPT_DIR}/stk_push.sh'
+alias _td='source ${STK_SCRIPT_DIR}/stk_pop.sh'
+alias _tj='source ${STK_SCRIPT_DIR}/stk_jump.sh'
+
+alias _tp='bash ${STK_SCRIPT_DIR}/stk_stack_print.sh'
+alias _te='vim ${STK_SCRIPT_DIR}/_stack'
+#alias _tr='rm -f  > ${STK_SCRIPT_DIR}/_stack'
+alias _tq='cat ${STK_SCRIPT_DIR}/stk_help'
+alias _ta='cat ${STK_SCRIPT_DIR}/stk_alias | grep alias'
+
+

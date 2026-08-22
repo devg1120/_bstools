@@ -4,20 +4,45 @@ BSTOOLS_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 
 alias gt='${BSTOOLS_DIR}/gtest.sh'
 
-alias bs='\
-cat ${BSTOOLS_DIR}/WDC/help;\
-cat ${BSTOOLS_DIR}/STK/help;\
-cat ${BSTOOLS_DIR}/DIFF/help;\
-cat ${BSTOOLS_DIR}/FIND/help;\
-cat ${BSTOOLS_DIR}/GREP/help;\
-cat ${BSTOOLS_DIR}/TREE/help;\
-'
-
-source ${BSTOOLS_DIR}/WDC/wdc_alias
-source ${BSTOOLS_DIR}/STK/stk_alias
+source ${BSTOOLS_DIR}/SESSION/wdc_alias
+source ${BSTOOLS_DIR}/DIR/stk_alias
+source ${BSTOOLS_DIR}/TREE/index_alias
 source ${BSTOOLS_DIR}/DIFF/diff_alias
 source ${BSTOOLS_DIR}/FIND/find_alias
 source ${BSTOOLS_DIR}/GREP/grep_alias
-source ${BSTOOLS_DIR}/TREE/index_alias
+
+
+
+alias bs='\
+cat ${BSTOOLS_DIR}/SESSION/wdc_help;\
+cat ${BSTOOLS_DIR}/DIR/stk_help;\
+cat ${BSTOOLS_DIR}/TREE/tree_help;\
+cat ${BSTOOLS_DIR}/DIFF/diff_help;\
+cat ${BSTOOLS_DIR}/FIND/find_help;\
+cat ${BSTOOLS_DIR}/GREP/grep_help;\
+'
+
+alias bs='\
+(\
+cat ${BSTOOLS_DIR}/SESSION/wdc_help;\
+cat ${BSTOOLS_DIR}/SESSION/wdc_alias | grep  --color=never alias;\
+\
+cat ${BSTOOLS_DIR}/DIR/stk_help;\
+cat ${BSTOOLS_DIR}/DIR/stk_alias | grep  --color=never alias;\
+\
+cat ${BSTOOLS_DIR}/TREE/tree_help;\
+cat ${BSTOOLS_DIR}/TREE/tree_alias | grep  --color=never alias;\
+\
+cat ${BSTOOLS_DIR}/DIFF/diff_help;\
+cat ${BSTOOLS_DIR}/DIFF/diff_alias | grep  --color=never alias;\
+\
+cat ${BSTOOLS_DIR}/FIND/find_help;\
+cat ${BSTOOLS_DIR}/FIND/find_alias | grep  --color=never alias;\
+\
+cat ${BSTOOLS_DIR}/GREP/grep_help;\
+cat ${BSTOOLS_DIR}/GREP/grep_alias | grep  --color=never alias;\
+) | less\
+'
+
 
 

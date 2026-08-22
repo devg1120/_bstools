@@ -1,0 +1,31 @@
+WDC  -Working Drectory Chnage control
+
+# usege
+
+> ss      current directory session save 
+> sp      session list print
+> sl [N}  session entry copy last
+> se      session list edit
+> sd [N]  session list delete
+> sr      session list reset
+
+> sc [N]  session change by entry number
+> scl     session change by last entry 
+
+> sq       help
+
+
+
+
+alias ss='${SCRIPT_DIR}/wdc_history_save.sh'
+alias sp='${SCRIPT_DIR}/wdc_history_print.sh'
+alias sl='${SCRIPT_DIR}/wdc_history_movelast.sh'
+alias se='vim ${SCRIPT_DIR}/_wdc.history'
+alias sd='${SCRIPT_DIR}/wdc_history_delete.sh'
+alias sr='${SCRIPT_DIR}/wdc_history_reset.sh'
+
+alias sc='source ${SCRIPT_DIR}/wdc_history_change.sh'
+alias scl='source ${SCRIPT_DIR}/wdc_history_change_last_session.sh'
+
+alias sq='cat ${SCRIPT_DIR}/wdc_history_help'
+

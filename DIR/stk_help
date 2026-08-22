@@ -1,0 +1,11 @@
+-----------------------------------------------
+DIR  -Directory Stack Control (DIR)
+> _ds  current dir save
+> _dd  current dir delete
+> _dj  current dir jump
+> _dp  register print
+> _de  register edit
+> _dh  help
+> _da  alias
+
+

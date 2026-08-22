@@ -1,0 +1,16 @@
+
+
+WDC_SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+alias _ss='bash ${WDC_SCRIPT_DIR}/wdc_history_save.sh'
+alias _sp='bash ${WDC_SCRIPT_DIR}/wdc_history_print.sh'
+alias _sl='bash ${WDC_SCRIPT_DIR}/wdc_history_movelast.sh'
+alias _se='vim ${WDC_SCRIPT_DIR}/_wdc.history'
+alias _sd='bash ${WDC_SCRIPT_DIR}/wdc_history_delete.sh'
+alias _sr='bash ${WDC_SCRIPT_DIR}/wdc_history_reset.sh'
+
+alias _sc='source ${WDC_SCRIPT_DIR}/wdc_history_change.sh'
+alias _scl='source ${WDC_SCRIPT_DIR}/wdc_history_change_last_session.sh'
+
+alias _sh='cat ${WDC_SCRIPT_DIR}/wdc_help'
+alias _sa='cat ${WDC_SCRIPT_DIR}/wdc_alias | grep alias'
+

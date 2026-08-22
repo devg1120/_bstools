@@ -1,0 +1,11 @@
+-----------------------------------------------
+STK  -Directory Stack Control (DSTK)
+> _dr  current dir register
+> _dd  current dir  delete
+> _dj  current dir jump
+> _dp  register print
+> _de  register print
+> _dh  help
+> _da  alias
+
+
