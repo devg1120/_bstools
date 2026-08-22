@@ -1,12 +1,13 @@
 ------------------------------------------------
 SESSION  -Session Drectory Control 
-> ss      current directory session save 
-> sp      session list print
-> sl [N}  session entry copy last
-> se      session list edit
-> sd [N]  session list delete
-> sr      session list reset
-> sc [N]  session change by entry number
-> scl     session change by last entry 
-> sq      help
-> sa      alias
+> _ss      current directory session save 
+> _sp      session list print
+> _sl [N}  session entry copy last
+> _se      session list edit
+> _sd [N]  session list delete
+> _sr      session list reset
+> _sc [N]  session change by entry number
+> _scl     session change by last entry 
+> _sq      help
+> _sa      alias
+

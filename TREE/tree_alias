@@ -1,0 +1,13 @@
+
+
+TREE_SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+
+
+alias _tr1='bash ${TREE_SCRIPT_DIR}/tr1.sh'
+alias _tr2='bash ${TREE_SCRIPT_DIR}/tr2.sh'
+alias _tl='bash ${TREE_SCRIPT_DIR}/dir_list.sh'
+alias _tlf='bash ${TREE_SCRIPT_DIR}/dir_list2.sh'
+alias _tld='bash ${TREE_SCRIPT_DIR}/dir_list3.sh'
+
+
+

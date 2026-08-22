@@ -6,7 +6,7 @@ alias gt='${BSTOOLS_DIR}/gtest.sh'
 
 source ${BSTOOLS_DIR}/SESSION/wdc_alias
 source ${BSTOOLS_DIR}/DIR/stk_alias
-source ${BSTOOLS_DIR}/TREE/index_alias
+source ${BSTOOLS_DIR}/TREE/tree_alias
 source ${BSTOOLS_DIR}/DIFF/diff_alias
 source ${BSTOOLS_DIR}/FIND/find_alias
 source ${BSTOOLS_DIR}/GREP/grep_alias
