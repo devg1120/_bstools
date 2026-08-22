@@ -1,12 +1,9 @@
 -----------------------------------------------
-DIFF  -Working Drectory Stack Control
+DIFF  -
+>  ff    s / sa / c / u
+>  fs      dir save
+>  fd [N]  dir delete
+>  fp  print
+>  fe  edit
 
-# usege
->  df    s / sa / c / u
->  dpush
->  dpop
->  dp  / dprint
->  de  / dedit
->  dr  / dreset
->  dq  / dhelp
 
