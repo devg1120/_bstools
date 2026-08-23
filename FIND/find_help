@@ -1,24 +1,23 @@
------------------------------------------------
 FIND  -FIND Control
-
-# usege
->  _ff  find file
+> _ff  FIND FILE 
    _ff  [N]  pattern
-     ff 1 *.ts
    _ff  PATH  pattern
-     ff ~/solidjs-dnd-resize  *.ts
+ ex.
+   _ff 1 *.ts
+   _ff ~/solidjs-dnd-resize  *.ts
 
->  _fd  find directory
+> _fd  FIND DRECTORY
    _fd  [N]  pattern
-     fd 1 src
    _fd  PATH  pattern
-     fd ~/solidjs-dnd-resize  src
+ ex.
+   _fd 1 src
+   _fd ~/solidjs-dnd-resize  src
 
->  fs
->  fd
->  fp  
->  fe  
->  fr  
->  fq  
->  fh  
+>  _fs       find current dir save
+>  _fd [N]   find dir stack delete
+>  _fp       find dir stack print
+>  _fe       find dir stack edit
+>  _fr       find dir stack reset
+>  _fh       find help
+>  _fa       find alias
 

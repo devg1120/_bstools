@@ -6,14 +6,27 @@ BSTOOLS_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 
 alias bs='bash ${BSTOOLS_DIR}/bs.sh'
 alias _='bs'
+
+# help show
 alias _s='bs s'
 alias _w='bs w'
 alias _t='bs t'
 alias _d='bs d'
 alias _f='bs f'
 alias _g='bs g'
+alias _r='bs r'
 alias _+='bs +'
 alias _a='bs a'
+
+# help + alias show
+alias _s_='bs s_'
+alias _w_='bs w_'
+alias _t_='bs t_'
+alias _d_='bs d_'
+alias _f_='bs f_'
+alias _g_='bs g_'
+alias _r_='bs r_'
+alias _+_='bs +_'
 
 source ${BSTOOLS_DIR}/SESSION/wdc_alias
 source ${BSTOOLS_DIR}/DIR/stk_alias

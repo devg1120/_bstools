@@ -1,9 +1,6 @@
------------------------------------------------
-DIFF  -
+DIFF  -Different Inter File to File
 >  df    s / sa / c / u
 >  ds      dir save
 >  dd [N]  dir delete
 >  dp  print
 >  de  edit
-
-

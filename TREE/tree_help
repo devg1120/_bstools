@@ -1,7 +1,6 @@
------------------------------------------------
 TREE   Directory Tree Pront
-> _tr1  [path]     tree
-> _tr2  [path]     tree
+> _tr1  [path]     tree type1
+> _tr2  [path]     tree type2
 > _tl   [path]     list all
 > _tlf  [path]     list file
 > _tld  [path]     list dir

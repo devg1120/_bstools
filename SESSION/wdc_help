@@ -1,4 +1,3 @@
-------------------------------------------------
 SESSION  -Session Drectory Control 
 > _ss      current directory session save 
 > _sp      session list print
@@ -8,6 +7,5 @@ SESSION  -Session Drectory Control
 > _sr      session list reset
 > _sc [N]  session change by entry number
 > _scl     session change by last entry 
-> _sq      help
+> _sh      help
 > _sa      alias
-

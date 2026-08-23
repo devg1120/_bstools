@@ -1,5 +1,4 @@
------------------------------------------------
-WORKING DIR  -Directory Stack Control (DIR)
+WDIR  -Directory Stack Control (DIR)
 > _ws     current dir save
 > _wd [N] dir delete
 > _wj [N] dir jump
@@ -7,4 +6,3 @@ WORKING DIR  -Directory Stack Control (DIR)
 > _we     register edit
 > _wh     help
 > _wa     alias
-
