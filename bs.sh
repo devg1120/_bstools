@@ -6,15 +6,15 @@ BSTOOLS_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 source $BSTOOLS_DIR/_bstools_rc
 
 usage() {
-         echo "SESSION     bs s"
-         echo "WORK DIR    bs w"
-         echo "TREE        bs t"
-         echo "DIFF        bs d"
-         echo "FIND        bs f"
-         echo "GREP        bs g"
-         echo "REPLACE     bs r"
-         echo "all         bs -"
-         echo "alias       bs a"
+         echo "SESSION     bs s  _s"
+         echo "WORK DIR    bs w  _w"
+         echo "TREE        bs t  _t"
+         echo "DIFF        bs d  _d"
+         echo "FIND        bs f  _f"
+         echo "GREP        bs g  _g"
+         echo "REPLACE     bs r  _r"
+         echo "all         bs *  _*"
+         echo "alias       bs a  _a"
 }
 
 if [ "$#" -eq 0 ]; then
@@ -58,7 +58,7 @@ replace_() {
 }
 
 alias_() {
-         alias |grep  "^alias _"
+         alias |grep  "^alias _" | less
 }
 
 case ${1} in
@@ -83,7 +83,7 @@ case ${1} in
   "r" )
 	  replace_
      ;;
-  "-")
+  "+")
 	  (
 	  session_
 	  dir_

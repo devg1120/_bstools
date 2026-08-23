@@ -5,7 +5,15 @@ BSTOOLS_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 #alias gt='${BSTOOLS_DIR}/gtest.sh'
 
 alias bs='bash ${BSTOOLS_DIR}/bs.sh'
-#alias bs_alias='alias |grep "^alias _"'
+alias _='bs'
+alias _s='bs s'
+alias _w='bs w'
+alias _t='bs t'
+alias _d='bs d'
+alias _f='bs f'
+alias _g='bs g'
+alias _+='bs +'
+alias _a='bs a'
 
 source ${BSTOOLS_DIR}/SESSION/wdc_alias
 source ${BSTOOLS_DIR}/DIR/stk_alias
