@@ -176,4 +176,8 @@ DATES=`mktime $DATE YYYY 3 `  ;_DATE=`datefmt $DATES`; echo "YY  3    $DATES    
 DATES=`mktime $DATE YYYY 6 `  ;_DATE=`datefmt $DATES`; echo "YY  6    $DATES    $_DATE";touch -t $DATES ./top/005/003/_${DATES}_.txt
 echo ""
 
+DIR="./top/001/001"; SIZE="1M"; truncate -s ${SIZE}  $DIR/TR_${SIZE}.big
+DIR="./top/001/002"; SIZE="2M"; truncate -s ${SIZE}  $DIR/TR_${SIZE}.big
+DIR="./top/001/003"; SIZE="3M"; truncate -s ${SIZE}  $DIR/TR_${SIZE}.big
+ls -lhR top/001/
 

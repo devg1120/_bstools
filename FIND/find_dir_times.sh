@@ -43,6 +43,8 @@ TV=$3
 #   bash find_dir_times.sh  times_test_dir/top/  ymd_win "2026-06-23"
 #   bash find_dir_times.sh  times_test_dir/top/  ymd_ago "2026-06-23"
 #   bash find_dir_times.sh  times_test_dir/top/  ymd_btw "2026-06-23:2026-08-23"
+#   bash find_dir_times.sh  times_test_dir/top/  size +2M
+#   bash find_dir_times.sh  times_test_dir/top/  size -2M
 
 case "$TCASE" in
   "day")
@@ -62,6 +64,9 @@ case "$TCASE" in
      V1=${V[0]}
      V2=${V[1]}
     find ${DIR} -type f -regextype egrep -not -regex  '.+node_modules.+'  -newermt ${V1} ! -newermt ${V2} -print
+    ;;
+  "size")
+    find ${DIR} -type f -regextype egrep -not -regex  '.+node_modules.+' -size ${TV} -print
     ;;
   *)
     # どこにも一致しないときの処理（デフォルト）
