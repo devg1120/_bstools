@@ -6,6 +6,7 @@ BSTOOLS_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 
 alias bs='bash ${BSTOOLS_DIR}/bs.sh'
 alias _='bs'
+alias less='less -R'
 
 # help show
 alias _s='bs s'

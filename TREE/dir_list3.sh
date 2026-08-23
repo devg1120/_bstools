@@ -6,11 +6,11 @@ file_count=0
 
 EXCLUDE=("node_modules" "dist" "build")
 
-echo "exclude dir"
-for str in ${EXCLUDE[@]}; do
-    echo " $str"
-done
-echo
+#echo "exclude dir"
+#for str in ${EXCLUDE[@]}; do
+#    echo " $str"
+#done
+#echo
 #echo TREE
 RL=10
 
@@ -46,11 +46,12 @@ traverse() {
          done
 
 	 if [ "$skip" -eq 0 ]; then
-           echo -e "\e[1;32m.${directory:${root_len}}/${child}/\e[0m"
+           #echo -e "\e[1;32m.${directory:${root_len}}/${child}/\e[0m"
+           echo "${directory:${root_len}}/${child}"
            dir_count=$((dir_count + 1))
 	   traverse "$directory/$child" "$prefix$child_prefix" 
          else
-           echo -e "\e[90m.${directory:${root_len}}/${child}/  skip\e[0m"
+           #echo -e "\e[90m.${directory:${root_len}}/${child}/  skip\e[0m"
            skip_dir_count=$((skip_dir_count + 1))
 	 fi
      else

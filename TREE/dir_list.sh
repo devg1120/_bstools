@@ -6,12 +6,22 @@ file_count=0
 
 EXCLUDE=("node_modules" "dist" "build")
 
-echo "exclude dir"
-for str in ${EXCLUDE[@]}; do
-    echo " $str"
-done
-echo
+#echo "exclude dir"
+#for str in ${EXCLUDE[@]}; do
+#    echo " $str"
+#done
+#echo
 #echo TREE
+
+REDIRECT=0
+if [ -t 1 ]; then
+    REDIRECT=0
+else
+    REDIRECT=1
+fi
+
+
+
 RL=10
 
 traverse() {
@@ -49,14 +59,26 @@ traverse() {
            #echo "${prefix}${pointer}$child/"
            #echo "${directory}/$child/"
            #echo  ".${directory:${root_len}}/${child}/"
-           echo -e "\e[1;32m.${directory:${root_len}}/${child}/\e[0m"
+           #echo -e "\e[1;32m.${directory:${root_len}}/${child}/\e[0m"
+           if [ "$REDIRECT" -eq 1 ]; then
+                      echo  ".${directory:${root_len}}/${child}/"
+           else
+                      echo -e "\e[1;32m.${directory:${root_len}}/${child}/\e[0m"
+           fi
+
+
            dir_count=$((dir_count + 1))
 	   traverse "$directory/$child" "$prefix$child_prefix" 
          else
            #echo "${prefix}${pointer}$child/+"
            #echo "${directory}/$child/  skip"
            #echo ".${directory:${root_len}}/${child}/   skip"
-           echo -e "\e[90m.${directory:${root_len}}/${child}/  skip\e[0m"
+           #echo -e "\e[90m.${directory:${root_len}}/${child}/  skip\e[0m"
+
+           if [ "$REDIRECT" -eq 0 ]; then
+                      echo -e "\e[90m.${directory:${root_len}}/${child}/  skip\e[0m"
+           fi
+
            skip_dir_count=$((skip_dir_count + 1))
 	 fi
      else

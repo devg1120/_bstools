@@ -6,12 +6,20 @@ file_count=0
 
 EXCLUDE=("node_modules" "dist" "build")
 
-echo "exclude dir"
-for str in ${EXCLUDE[@]}; do
-    echo " $str"
-done
-echo
+#echo "exclude dir"
+#for str in ${EXCLUDE[@]}; do
+#    echo " $str"
+#done
+#echo
 #echo TREE
+
+REDIRECT=0 
+if [ -t 1 ]; then
+    REDIRECT=0 
+else
+    REDIRECT=1 
+fi
+
 RL=10
 
 traverse() {
