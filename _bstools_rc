@@ -16,6 +16,7 @@ alias _d='bs d'
 alias _f='bs f'
 alias _g='bs g'
 alias _r='bs r'
+alias _v='bs v'
 alias _+='bs +'
 alias _a='bs a'
 
@@ -27,6 +28,7 @@ alias _d_='bs d_'
 alias _f_='bs f_'
 alias _g_='bs g_'
 alias _r_='bs r_'
+alias _v_='bs v_'
 alias _+_='bs +_'
 
 source ${BSTOOLS_DIR}/SESSION/wdc_alias
@@ -36,6 +38,7 @@ source ${BSTOOLS_DIR}/DIFF/diff_alias
 source ${BSTOOLS_DIR}/FIND/find_alias
 source ${BSTOOLS_DIR}/GREP/grep_alias
 source ${BSTOOLS_DIR}/REPLACE/replace_alias
+source ${BSTOOLS_DIR}/VI/vi_alias
 
 if [ -f  ${BSTOOLS_DIR}/_common_alias ]; then
   source ${BSTOOLS_DIR}/_common_alias

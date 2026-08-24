@@ -1,0 +1,21 @@
+" 文字コードの設定
+set encoding=utf-8
+set fileencodings=utf-8,latin1
+
+" 行番号を表示する
+set number
+
+" シンタックスハイライトを有効にする
+syntax on
+
+" タブ幅の設定（2スペース）
+set tabstop=2
+set shiftwidth=2
+set expandtab
+
+" 検索結果をハイライトする
+set hlsearch
+
+" インクリメンタルサーチを有効にする
+set incsearch
+

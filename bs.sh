@@ -13,6 +13,7 @@ usage() {
          echo "FIND        bs f[_]  _f[_] "
          echo "GREP        bs g[_]  _g[_] "
          echo "REPLACE     bs r[_]  _r[_] "
+         echo "VI          bs v[_]  _v[_] "
          echo "all         bs +[_]  _+[_] "
          echo "alias       bs a  _a       "
 }
@@ -71,6 +72,13 @@ replace_() {
           fi
 }
 
+vi_() {
+          cat ${BSTOOLS_DIR}/VI/vi_help;\
+          if [ -n "$1" ]; then
+          cat ${BSTOOLS_DIR}/VI/vi_alias | grep  --color=never alias;\
+          fi
+}
+
 alias_() {
          alias |grep  "^alias _" | less
 }
@@ -118,6 +126,12 @@ case ${1} in
   "r_" )
 	  replace_ alias
      ;;
+  "v" )
+	  vi_ 
+     ;;
+  "v_" )
+	  vi_ alias
+     ;;
   "+")
 	  (
 	  session_
@@ -127,6 +141,7 @@ case ${1} in
 	  find_
 	  grep_
 	  replace_
+	  vi_
   ) | less
      ;;
   "+_")
@@ -138,6 +153,7 @@ case ${1} in
 	  find_ alias
 	  grep_ alias
 	  replace_ alias
+	  vi_ alias
   ) | less
      ;;
   "a" )

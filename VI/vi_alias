@@ -1,0 +1,16 @@
+
+
+VI_SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+
+
+alias _vi='bash ${VI_SCRIPT_DIR}/vi.sh'
+
+alias _vs='bash ${VI_SCRIPT_DIR}/stk_file_push.sh'
+alias _vd='bash ${VI_SCRIPT_DIR}/stk_detele.sh'
+alias _vp='bash ${VI_SCRIPT_DIR}/stk_stack_print.sh'
+alias _ve='vim ${VI_SCRIPT_DIR}/_stack'
+alias _vr='rm -f  > ${VI_SCRIPT_DIR}/_stack'
+alias _vh='cat ${VI_SCRIPT_DIR}/grep_help'
+alias _va='cat ${VI_SCRIPT_DIR}/grep_alias'
+
+
