@@ -37,5 +37,11 @@ source ${BSTOOLS_DIR}/FIND/find_alias
 source ${BSTOOLS_DIR}/GREP/grep_alias
 source ${BSTOOLS_DIR}/REPLACE/replace_alias
 
+if [ -f  ${BSTOOLS_DIR}/_common_alias ]; then
+  source ${BSTOOLS_DIR}/_common_alias
+fi
 
+if [ -f  ${BSTOOLS_DIR}/_envspec_alias ]; then
+  source ${BSTOOLS_DIR}/_envspec_alias
+fi
 
