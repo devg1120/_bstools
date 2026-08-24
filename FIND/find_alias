@@ -4,7 +4,10 @@ FIND_SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 
 
 alias _ff='bash ${FIND_SCRIPT_DIR}/find_file.sh'
+alias _ffo='bash ${FIND_SCRIPT_DIR}/find_file_option.sh'
+
 alias _fd='bash ${FIND_SCRIPT_DIR}/find_dir.sh'
+
 alias _fh='cat ${FIND_SCRIPT_DIR}/find_help'
 alias _fa='cat ${FIND_SCRIPT_DIR}/find_alias'
 

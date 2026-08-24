@@ -1,17 +1,17 @@
 
 
-FIND_SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+REPLACE_SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 
 
-alias _rf='bash ${FIND_SCRIPT_DIR}/replace_file.sh'
-alias _rd='bash ${FIND_SCRIPT_DIR}/replace_dir.sh'
-alias _rs='bash ${FIND_SCRIPT_DIR}/stk_push.sh'
-#alias _rd='bash ${FIND_SCRIPT_DIR}/stk_delete.sh'
-#alias _ro='bash ${FIND_SCRIPT_DIR}/stk_pop.sh'
-alias _rp='bash ${FIND_SCRIPT_DIR}/stk_stack_print.sh'
-alias _re='vim ${FIND_SCRIPT_DIR}/_stack'
-alias _rr='rm -f  > ${FIND_SCRIPT_DIR}/_stack'
-alias _rh='cat ${FIND_SCRIPT_DIR}/replace_help'
-alias _ra='cat ${FIND_SCRIPT_DIR}/replace_alias  | grep  --color=never alias;'
+alias _rf='bash ${REPLACE_SCRIPT_DIR}/replace_file.sh'
+alias _rd='bash ${REPLACE_SCRIPT_DIR}/replace_dir.sh'
+alias _rs='bash ${REPLACE_SCRIPT_DIR}/stk_push.sh'
+#alias _rd='bash ${REPLACE_SCRIPT_DIR}/stk_delete.sh'
+#alias _ro='bash ${REPLACE_SCRIPT_DIR}/stk_pop.sh'
+alias _rp='bash ${REPLACE_SCRIPT_DIR}/stk_stack_print.sh'
+alias _re='vim ${REPLACE_SCRIPT_DIR}/_stack'
+alias _rr='rm -f  > ${REPLACE_SCRIPT_DIR}/_stack'
+alias _rh='cat ${REPLACE_SCRIPT_DIR}/replace_help'
+alias _ra='cat ${REPLACE_SCRIPT_DIR}/replace_alias  | grep  --color=never alias;'
 
 
