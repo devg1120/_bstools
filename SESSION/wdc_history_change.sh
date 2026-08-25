@@ -10,8 +10,10 @@ if [ "$#" -eq 1 ]; then
   HN=$1"p"
 else
   #echo "引数の数は 1 以外の $# です"
-  echo " arg err: hc [N]   N:history number"
-  return
+  #echo " arg err: hc [N]   N:history number"
+  #return
+  N=`cat ${FILE} | wc --line`
+   HN=$N"p"
 fi
 
 if [ ! -f ${FILE} ]; then
