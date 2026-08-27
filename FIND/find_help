@@ -5,14 +5,10 @@ FIND  -FIND Control
  ex.
    _ff 1 *.ts
    _ff ~/solidjs-dnd-resize  *.ts
-
-
 > _ffo  FIND FILE  OPTION
    _fdo  [N]   key value
    _fdo  PATH  key value
-
           key = day min ymd_win ymd_ago size
-
  ex.
    _ffo times_test_dir/top/  day +10
    _ffo times_test_dir/top/  day -10
@@ -44,4 +40,3 @@ FIND  -FIND Control
 >  _fr       find dir stack reset
 >  _fh       find help
 >  _fa       find alias
-

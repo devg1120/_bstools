@@ -2,20 +2,16 @@ GREP - Grep Control
 > _go  GREP OR 
     _go  [N] pattern  pattern ..
     _go  dir pattern  pattern ..
-
   ex.
   _go   1 func
   _go   1 else func 
   _go   /home/devg1120/solidjs-dnd-resize  else func
-
 > _ga  GREP AND 
     _ga  [N] pattern  pattern ..
     _ga  dir pattern  pattern ..
-
   ex.
   _ga   1 else func 
   _ga   /home/devg1120/solidjs-dnd-resize  else func
-
 >  _gs       grep current dir save
 >  _gd [N]   grep dir stack delete
 >  _gp       grep dir stack print
@@ -23,4 +19,3 @@ GREP - Grep Control
 >  _gr       grep dir stack reset
 >  _gh       grep help
 >  _ga       grep alias
-

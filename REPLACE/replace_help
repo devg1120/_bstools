@@ -1,11 +1,9 @@
------------------------------------------------
 REPLACE  -REPLACR Control
 > replace file
   _rf  FILEPATH  pattern
     ex.
      rf ~/solidjs-dnd-resize/file AAAA BBBB  
         => ~/solidjs-dnd-resize/file_
-
 > replace directory
   _rd  [N]  pattern
     ex.
@@ -14,7 +12,6 @@ REPLACE  -REPLACR Control
     ex.
      rd ~/solidjs-dnd-resize  AAAA BBBB
         => ~/solidjs-dnd-resize_
-
 >  _rs       replace current dir save
 >  _rd [N]   replace dir stack delete
 >  _rp       replace dir stack print
@@ -22,4 +19,3 @@ REPLACE  -REPLACR Control
 >  _rr       replace dir stack reset
 >  _rh       replace help
 >  _ra       replace alias
-

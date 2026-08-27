@@ -2,12 +2,9 @@ VI - Vi Control
 > _vi   
     _vi  [N] 
     _vi  file 
-
   ex.
   _vi   1 
   _vi   /home/devg1120/solidjs-dnd-resize/README.md
-
-
 >  _vs filepath  file  save
 >  _vd [N]       file stack delete
 >  _vp           file stack print
@@ -15,4 +12,3 @@ VI - Vi Control
 >  _vr           file stack reset
 >  _vh           help
 >  _va           alias
-

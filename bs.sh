@@ -7,14 +7,23 @@ source $BSTOOLS_DIR/_bstools_rc
 
 usage() {
          echo "SESSION     bs s  / _s "
+	 grep "^>"  $BSTOOLS_DIR/SESSION/wdc_help
          echo "WORK DIR    bs w  / _w "
+	 grep "^>"  $BSTOOLS_DIR/DIR/stk_help
          echo "TREE        bs t  / _t "
+	 grep "^>"  $BSTOOLS_DIR/TREE/tree_help
          echo "DIFF        bs d  / _d "
+	 grep "^>"  $BSTOOLS_DIR/DIFF/diff_help
          echo "FIND        bs f  / _f "
+	 grep "^>"  $BSTOOLS_DIR/FIND/find_help
          echo "GREP        bs g  / _g "
+	 grep "^>"  $BSTOOLS_DIR/GREP/grep_help
          echo "REPLACE     bs r  / _r "
+	 grep "^>"  $BSTOOLS_DIR/REPLACE/replace_help
          echo "VI          bs v  / _v "
+	 grep "^>"  $BSTOOLS_DIR/VI/vi_help
          echo "SSH         bs h  / _h "
+	 grep "^>"  $BSTOOLS_DIR/SSH/ssh_help
          echo "all         bs +  / _+ "
          echo "alias       bs a  / _a       "
 }
