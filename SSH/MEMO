@@ -1,18 +1,5 @@
 
+https://www.linuxmaster.jp/linux_skill/2026/04/ssh-keygensshauthorized-keys.html
 
 
-#   bash find_file.sh  1 *.ts
-
-#   bash find_file_option.sh  times_test_dir/top/  day +10
-#   bash find_file_option.sh  times_test_dir/top/  day -10
-#   bash find_file_option.sh  times_test_dir/top/  day -1
-#   bash find_file_option.sh  times_test_dir/top/  min -60
-#   bash find_file_option.sh  times_test_dir/top/  min -120
-#   bash find_file_option.sh  times_test_dir/top/  ymd_win "2026-08-23"
-#   bash find_file_option.sh  times_test_dir/top/  ymd_win "2026-06-23"
-#   bash find_file_option.sh  times_test_dir/top/  ymd_ago "2026-06-23"
-#   bash find_file_option.sh  times_test_dir/top/  ymd_btw "2026-06-23:2026-08-23"
-#   bash find_file_option.sh  times_test_dir/top/  size +2M
-#   bash find_file_option.sh  times_test_dir/top/  size 2M
-#   bash find_file_option.sh  times_test_dir/top/  size -2M
 

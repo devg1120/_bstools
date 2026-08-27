@@ -19,13 +19,11 @@ fi
 #echo $PWD ">>" ${FILE}
 #echo $PWD >> ${FILE}
 
-if [ -n "$1" ]; then
-   echo $PWD/$1 ">>" ${FILE}
-   echo $PWD/$1 >> ${FILE}
-else
-   echo $PWD ">>" ${FILE}
-   echo $PWD >> ${FILE}
+if [ -z "$1" ]; then
+  exit
 fi
+echo $1 ">>" ${FILE}
+echo $1 >> ${FILE}
 
 tail -n 10 ${FILE}  > ${FILE}.tmp && mv ${FILE}.tmp ${FILE}
 

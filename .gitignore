@@ -3,6 +3,7 @@ logs
 *.log
 *.big
 _envspec_alias
+ssh_config
 
 npm-debug.log*
 yarn-debug.log*

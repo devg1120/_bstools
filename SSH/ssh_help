@@ -1,0 +1,18 @@
+SSH  -SSH Control
+> _ssh
+   _ssh [hostname]
+   _ssh [N]
+ ex.
+   _ssh ubuntu
+   _ssh 1
+
+> sshv
+> sshl
+
+
+>  _sshsp       stack print
+>  _sshse       stack edit
+>  _sshsr       stack reset
+>  _sshsh       help
+>  _sshsa       alias
+

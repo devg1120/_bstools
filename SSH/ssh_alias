@@ -1,0 +1,21 @@
+
+
+SSH_SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+
+
+alias _ssh='bash ${SSH_SCRIPT_DIR}/ssh.sh'
+alias _sshv='vi ${SSH_SCRIPT_DIR}/ssh_config'
+alias _sshl='grep Host ${SSH_SCRIPT_DIR}/ssh_config'
+
+
+#alias _sshs='bash ${SSH_SCRIPT_DIR}/stk_push.sh'
+#alias _sshd='bash ${SSH_SCRIPT_DIR}/stk_delete.sh'
+#alias _ssho='bash ${SSH_SCRIPT_DIR}/stk_pop.sh'
+alias _sshsp='bash ${SSH_SCRIPT_DIR}/stk_stack_print.sh'
+alias _sshse='vim ${SSH_SCRIPT_DIR}/_stack'
+alias _sshsr='rm -f  > ${SSH_SCRIPT_DIR}/_stack'
+
+alias _sshh='cat ${SSH_SCRIPT_DIR}/ssh_help'
+alias _ssha='cat ${SSH_SCRIPT_DIR}/ssh_alias'
+
+

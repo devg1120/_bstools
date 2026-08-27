@@ -14,22 +14,11 @@ usage() {
          echo "GREP        bs g  / _g "
          echo "REPLACE     bs r  / _r "
          echo "VI          bs v  / _v "
+         echo "SSH         bs h  / _h "
          echo "all         bs +  / _+ "
          echo "alias       bs a  / _a       "
 }
 
-usage_() {
-         echo "SESSION     bs s[_]  _s[_] "
-         echo "WORK DIR    bs w[_]  _w[_] "
-         echo "TREE        bs t[_]  _t[_] "
-         echo "DIFF        bs d[_]  _d[_] "
-         echo "FIND        bs f[_]  _f[_] "
-         echo "GREP        bs g[_]  _g[_] "
-         echo "REPLACE     bs r[_]  _r[_] "
-         echo "VI          bs v[_]  _v[_] "
-         echo "all         bs +[_]  _+[_] "
-         echo "alias       bs a  _a       "
-}
 if [ "$#" -eq 0 ]; then
    usage
    exit
@@ -91,6 +80,12 @@ vi_() {
           fi
 }
 
+ssh_() {
+          cat ${BSTOOLS_DIR}/SSH/ssh_help;\
+          if [ -n "$1" ]; then
+          cat ${BSTOOLS_DIR}/SSH/ssh_alias | grep  --color=never alias;\
+          fi
+}
 alias_() {
          alias |grep  "^alias _" | less
 }
@@ -144,6 +139,12 @@ case ${1} in
   "v_" )
 	  vi_ alias
      ;;
+  "h" )
+	  ssh_ 
+     ;;
+  "h_" )
+	  ssh_ alias
+     ;;
   "+")
 	  (
 	  session_
@@ -154,6 +155,7 @@ case ${1} in
 	  grep_
 	  replace_
 	  vi_
+	  ssh_
   ) | less
      ;;
   "+_")
@@ -166,6 +168,7 @@ case ${1} in
 	  grep_ alias
 	  replace_ alias
 	  vi_ alias
+	  ssh_ alias
   ) | less
      ;;
   "a" )
