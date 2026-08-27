@@ -1,0 +1,8 @@
+
+bash ./build.sh
+ls -lR --time-style=+'%Y-%m-%d %H:%M:%S'
+
+find . -type f -newermt "20240401 2200" ! -newermt "20241201 2330" | wc -l
+
+
+
