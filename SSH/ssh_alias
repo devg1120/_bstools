@@ -4,8 +4,9 @@ SSH_SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 
 
 alias _ssh='bash ${SSH_SCRIPT_DIR}/ssh.sh'
-alias _sshv='vi ${SSH_SCRIPT_DIR}/ssh_config'
+alias _sshe='vi ${SSH_SCRIPT_DIR}/ssh_config'
 alias _sshl='grep Host ${SSH_SCRIPT_DIR}/ssh_config'
+alias _sshpkp='bash ${SSH_SCRIPT_DIR}/ssh_pubkey_push.sh'
 
 
 #alias _sshs='bash ${SSH_SCRIPT_DIR}/stk_push.sh'

@@ -6,9 +6,18 @@ SSH  -SSH Control
    _ssh ubuntu
    _ssh 1
 
-> sshv
-> sshl
+> _sshe        ssh_config edit
 
+         Host  xxxxxx
+             HostName  xx.xx.xx.xx
+             Port    xxxxx
+             User    xxxxx
+             IdentityFile   xxx/xxx/xxx
+         
+> _sshl       ssh_config Host list
+
+> _sshpkp     pub key  push
+    _sshpkp [Host]
 
 >  _sshsp       stack print
 >  _sshse       stack edit

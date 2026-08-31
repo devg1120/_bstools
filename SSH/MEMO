@@ -1,5 +1,79 @@
 
 https://www.linuxmaster.jp/linux_skill/2026/04/ssh-keygensshauthorized-keys.html
 
+##########################################################
+1. ssh-keygenで鍵ペアを生成
+##########################################################
+
+$ ssh-keygen -t ed25519 -C "your_email@example.com"
+
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/home/user/.ssh/id_ed25519):   ← Enterで規定値
+Enter passphrase (empty for no passphrase):                         ← パスフレーズを入力
+Enter same passphrase again:
+Your identification has been saved in /home/user/.ssh/id_ed25519
+Your public key has been saved in /home/user/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:xXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxX your_email@example.com
+
+##########################################################
+2. 生成された鍵ファイルを確認する
+##########################################################
+
+$ ls -la ~/.ssh/
+total 16
+drwx------. 2 user user 4096 Apr 13 09:30 .
+drwx------. 7 user user 4096 Apr 13 09:30 ..
+-rw-------. 1 user user  411 Apr 13 09:30 id_ed25519      ← 秘密鍵（パーミッション600必須）
+-rw-r--r--. 1 user user   97 Apr 13 09:30 id_ed25519.pub  ← 公開鍵（.pub付き）
+
+$ cat ~/.ssh/id_ed25519.pub
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIxxxxxx... your_email@example.com
+
+
+
+##########################################################
+3. ssh_config 追加する
+##########################################################
+
+ssh_config 
+---
+Host ubuntu
+    HostName 127.0.0.1
+    Port 1522
+    User ubuntu
+    IdentityFile ~/.ssh/id_ed25519
+----
+
+##########################################################
+4. 公開鍵をサーバーに登録する
+##########################################################
+
+# クライアント側で公開鍵の内容を確認する
+$ cat ~/.ssh/id_ed25519.pub
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIxxxxxx... your_email@example.com
+
+# サーバー側で ~/.ssh/authorized_keys に追記する
+$ mkdir -p ~/.ssh
+$ echo "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIxxxxxx... your_email@example.com" >> ~/.ssh/authorized_keys
+
+# パーミッションを設定する（重要）
+$ chmod 700 ~/.ssh
+$ chmod 600 ~/.ssh/authorized_keys
+
+------ 1linener
+
+$ cat ~/.ssh/id_ed25519.pub | ssh user@192.168.1.100 \
+    "mkdir -p ~/.ssh && chmod 700 ~/.ssh && cat >> ~/.ssh/authorized_keys && chmod 600 ~/.ssh/authorized_keys"
+
+------  _bs
+
+$ _sskpush ubuntu
+
+##########################################################
+5. サーバーに接続
+##########################################################
+
+$ _ssh ubuntu
 
 
